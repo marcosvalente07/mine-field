@@ -1,26 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <MineField/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MineField from './components/mineField.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MineField
   }
 }
 </script>
 
 <style>
+html,
+body {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: whitesmoke;
+  /* margin-top: 60px; */
+  background-color: black;
+  width: 100%;
+  height: 100vh;
 }
 </style>
