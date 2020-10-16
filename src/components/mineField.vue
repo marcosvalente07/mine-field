@@ -66,7 +66,7 @@
 
 <script>
 const explosionAudio = new Audio(
-  "https://www.myinstants.com/media/sounds/faustao-errou.mp3"
+  "https://www.myinstants.com/media/sounds/que-burro-andre-henning-zoa-ribery-apos-expulsao-256kbit.mp3"
 );
 const winAudio = new Audio(
   "https://www.myinstants.com/media/sounds/hallelujahshort.swf.mp3"
