@@ -4,13 +4,6 @@
       <button
         type="button"
         class="btn btn-black mr-3"
-        @click="setCoffeeMilkDifficulty"
-      >
-        Noob
-      </button>
-      <button
-        type="button"
-        class="btn btn-black mr-3"
         @click="setBeginnerDifficulty"
       >
         Iniciante
